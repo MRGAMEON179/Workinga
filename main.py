@@ -236,7 +236,7 @@ async def on_ready():
     """Set bot status."""
     await bot.change_presence(
         status=discord.Status.dnd,
-        activity=discord.Game(name="with LightCloud")
+        activity=discord.Game(name="with Gameon")
     )
     print(f"Logged in as {bot.user}")
 
