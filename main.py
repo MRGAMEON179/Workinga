@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix="!", intents=intents)
 
 # Constants
 SERVER_LIMIT = 10 
-AUTHORIZED_ROLE_IDS = [1320225346951319572, 1315216999101628417, 1311953281416826963, 1316789675846926458]  # Replace with actual role IDs
+AUTHORIZED_ROLE_IDS = [1325373752657186862]  # Replace with actual role IDs
 database_file = "servers.txt"
 TOKEN = ""  # Replace with your bot's token
 
