@@ -9,8 +9,8 @@ intents.message_content = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # Constants
-SERVER_LIMIT = 10 
-AUTHORIZED_ROLE_IDS = [1325373752657186862]  # Replace with actual role IDs
+SERVER_LIMIT = 1000
+AUTHORIZED_ROLE_IDS = [1327979782100488212]  # Replace with actual role IDs
 database_file = "servers.txt"
 TOKEN = ""  # Replace with your bot's token
 
@@ -236,7 +236,7 @@ async def on_ready():
     """Set bot status."""
     await bot.change_presence(
         status=discord.Status.dnd,
-        activity=discord.Game(name="with Gameon")
+        activity=discord.Game(name="with Cloud-x")
     )
     print(f"Logged in as {bot.user}")
 
